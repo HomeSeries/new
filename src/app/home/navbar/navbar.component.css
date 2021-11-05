@@ -1,0 +1,20 @@
+.navbar-default{
+    border: none;
+    background-color: rgb(123, 229, 255);
+    font-size: larger;
+}
+.navbar-nav a{
+    color: black;
+    
+}
+.selected{
+    background-color: rgb(221, 221, 221);
+}
+.navbar-default a:hover{
+    background-color: rgb(221, 221, 221);
+    
+}
+.navbar-brand{
+    background-color: rgb(221, 221, 221);
+    color: black;
+}
