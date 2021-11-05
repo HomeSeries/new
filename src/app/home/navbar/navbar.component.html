@@ -1,0 +1,22 @@
+<nav id="top" class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">WebSeries</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li><a onclick ="active()" id = "home" class = "inactive" href="#">Home</a></li>
+        <li><a [routerLink] = "['watched-list']">Watched</a></li>
+        <li><a [routerLink] = "['series-watchlist']">Series Watchlist</a></li>
+        <li><a [routerLink]="['movie-watchlist']">Movie Watchlist</a></li>
+      </ul>
+    </div>
+</nav>
+
+<script>
+    function active(){
+        const ele=document.getElementById("home");
+        ele.className="active";
+    }
+</script>
+
+
